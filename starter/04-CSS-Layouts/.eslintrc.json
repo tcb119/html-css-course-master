@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "html"
+  ],
+  "settings": {
+    "html/html-extensions": [".html"]  // 確保 ESLint 解析 .html 文件
+  },
+  "rules": {
+    // 這裡可以添加或修改你需要的規則
+  }
+}
